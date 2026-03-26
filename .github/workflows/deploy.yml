@@ -38,6 +38,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          rm -f package-lock.json
           npm config set @gsap:registry https://registry.npmjs.org
           npm install
 
