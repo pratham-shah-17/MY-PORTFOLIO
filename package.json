@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://prat-shah-17.github.io/MY-PORTFOLIO/",
+  "homepage": "https://pratham-shah-17.github.io/MY-PORTFOLIO/",
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-three/cannon": "^6.6.0",
