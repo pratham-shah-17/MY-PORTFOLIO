@@ -1,14 +1,16 @@
 {
   "name": "pratham-shah-portfolio",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://prat-shah-17.github.io/MY-PORTFOLIO/",
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-three/cannon": "^6.6.0",
